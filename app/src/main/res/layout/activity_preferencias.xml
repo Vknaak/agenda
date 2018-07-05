@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:text="Código da Cidade: "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCodigo_cidade"/>
+    <TextView
+        android:text="Código da Operadora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtCodigo_operadora"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"
+        android:onClick="salvar"
+        android:id="@+id/btnsalvar"
+        android:backgroundTint="@color/colorPrimary"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Contatos"
+        android:onClick="btnLista"
+        android:id="@+id/btnlista"
+        android:backgroundTint="@color/colorPrimary"
+        />
+
+</LinearLayout>

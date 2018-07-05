@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AgendaTelefonicaMarcoAvaliativo1</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_listar">ListarActivity</string>
+    <string name="title_activity_alterar">AlterarActivity</string>
+    <string name="title_activity_preferencias">PreferenciasActivity</string>
+</resources>
